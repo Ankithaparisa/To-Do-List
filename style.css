@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rbga(0,0,0,0.1);
+    width: 60%;
+    max-width: 800px;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+.menu, .order-summary, #final-billing-summary{
+    margin-top: 20px;
+}
+ul{
+    list-style:none ;
+    padding: 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+}
+button{
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+button.hover{
+    background-color: #45a049;
+}
+input[type="number"]{
+    width: 50px;
+    padding: 5px;
+    margin-left: 10px;
+}
+hr{
+    margin: 20px 0;
+}
+#order-list li, #final-billig-list li {
+    display: flex;
+    justify-content: space-between;
+    max-width: 5px 0;
+}
+#order-list li span, #final-billing-list li span{
+    font-size: 14px;
+}
